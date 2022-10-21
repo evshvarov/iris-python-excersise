@@ -2,7 +2,7 @@
 
 print('Hello World')
 
-# IRIS version
+# Run IRIS Class Method 
 
 import iris
 print(iris.cls('dc.sample.ObjectScript')).Test()
