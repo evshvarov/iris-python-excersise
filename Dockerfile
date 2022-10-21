@@ -5,7 +5,7 @@ FROM $IMAGE
 WORKDIR /home/irisowner/irisbuild
 
 ARG TESTS=0
-ARG MODULE="objectscript-template"
+ARG MODULE="python-excersise"
 ARG NAMESPACE="USER"
 
 RUN --mount=type=bind,src=.,dst=. \
